@@ -2,3 +2,77 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  width: 100%;
+  font-family: sans-serif;
+  background: ivory;
+}
+
+h1 {
+  float: left;
+}
+
+header {
+  border-bottom: 1px solid black;
+  overflow: auto;
+}
+
+header p {
+  float: right;
+  padding-right: 3em;
+}
+
+footer{
+  clear: both;
+  border-top: 1px solid black;
+  font-size: smaller;
+}
+main{
+  padding: 3em;
+}
+
+.comment-input {
+  height: 10rem;
+  float: left;
+  width: 33.3333%;
+}
+
+.comments {
+  height: 10rem;
+  float: right;
+  width: 66.66666%;
+}
+
+.comments p{
+  border-radius: 5px;
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+
+.comments p:nth-child(even){
+  background: lavender;
+}
+
+.comments p:nth-child(odd){
+  background: gainsboro;
+}
+
+
+input {
+  font-size: 1.2em;
+  width: 80%;
+  height: 30px;
+}
+
+button{
+  background-color: olivedrab;
+  color: white;
+  padding: 3px;
+  margin-left: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+}
