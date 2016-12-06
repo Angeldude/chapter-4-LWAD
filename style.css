@@ -30,6 +30,7 @@ footer{
 }
 main{
   padding: 3em;
+  overflow: auto;
 }
 
 .comment-input {
@@ -75,4 +76,5 @@ button{
   font-weight: bold;
   border-style: none;
   border-radius: 5px;
+  cursor: pointer;
 }
